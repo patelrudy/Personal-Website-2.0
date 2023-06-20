@@ -1,0 +1,96 @@
+html, body {
+  height: 100vh;
+  overflow: hidden;
+  /* overflow-y: auto; */
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+}
+
+.home-icons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2em;
+  width: max-content;  /* Added to limit width */
+}
+
+.home-icons a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  transition: padding 0.3s ease, width 0.3s ease; /* Added width transition */
+  color: #000;
+  text-decoration: none;
+  width: 2em; /* Set initial width to icon size */
+  overflow: hidden;
+}
+
+.home-icons a:hover {
+  padding-left: 25px;
+  width: max-content; /* Expand to fit content on hover */
+}
+
+.home-icons a span {
+  margin-left: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.home-icons a:hover span {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .home-icons {
+    display: none;
+  }
+}
+
+.plexus-background {
+  position: absolute;
+  width: 100%;
+  height: 100%; /* Full viewport height */
+}
+
+.home-content {
+  z-index: 10;
+  font-family: 'Raleway', sans-serif; 
+  color: #000;  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 60px); /* Subtracting navbar height */
+}
+
+.home-content h1 {
+  font-size: clamp(2em, 5vw, 7em);
+  font-weight: 700; /* Use the bold variant of Raleway */
+}
+
+.home-content h2 {
+  font-size: clamp(2em, 3.5vw, 3.3em);
+  font-weight: 600; /* Use the normal variant of Raleway */
+}
+
+.home-content h3 {
+  font-size: clamp(1.75em, 3vw, 3em);
+  font-weight: 600; /* Use the normal variant of Raleway */
+}
+
+.home-content h4 {
+  font-size: clamp(1.5em, 2.5vw, 2em);
+  font-weight: 600; /* Use the normal variant of Raleway */
+}

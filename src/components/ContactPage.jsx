@@ -17,7 +17,7 @@ const ContactPage = () => {
             <div className='contact-form'>
                 <form 
                     method="POST" 
-                    action="https://getform.io/f/{your_unique_form_endpoint}"
+                    action="https://getform.io/eh"
                     >
                     <input 
                     type="hidden" 

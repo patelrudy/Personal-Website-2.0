@@ -6,7 +6,7 @@ import './AboutPage.css';
 import personal_image from '../assets/personal_image.JPG'
 
 const MagicOcean = [
-  "Software Engineer", "Distributed Systems Developer", "Computer Science Major", "Intelligence Thread", "Devices Thread"
+  'Analytical', 'Creative', 'Adaptable', 'User-Focused'
 ];
 
 let index = 0;

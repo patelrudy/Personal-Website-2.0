@@ -46,8 +46,7 @@
 
 .navbar ul {
   display: flex;
-  justify-content: center; /* Aligns the links in the center */
-  width: 100%;
+  justify-content: center;
   list-style: none;
 }
 

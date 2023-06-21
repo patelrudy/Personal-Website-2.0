@@ -6,7 +6,7 @@ import './AboutPage.css';
 import personal_image from '../assets/personal_image.JPG'
 
 const MagicOcean = [
-  'Hard-working', 'Reliable', 'Team Player', 'Motivated', 'Dedicated'
+  "Software Engineer", "Distributed Systems Developer", "Computer Science Major", "Intelligence Thread", "Devices Thread"
 ];
 
 let index = 0;
@@ -46,11 +46,9 @@ const AboutPage = () => {
       </div>
       <div className="personal-section">
         <div className="personal-image">
-          {/* Add your image here */}
           <img src={personal_image} alt="Rudresh Patel"/>
         </div>
         <div className="personal-info">
-          {/* Add your personal info here */}
           <p>Hey there! I'm a recent Georgia Tech grad with a major in Computer Science,
              where I got to explore the cool worlds of Artificial Intelligence and Devices. 
              Now, as a software engineer, I apply my problem-solving skills to turn big,

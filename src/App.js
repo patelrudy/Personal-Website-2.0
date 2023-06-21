@@ -4,6 +4,8 @@ import HomePage from './components/HomePage';
 import NavBar from './components/NavBar';
 import './App.css';
 import AboutPage from './components/AboutPage';
+import ResumePage from './components/ResumePage';
+import ContactPage from './components/ContactPage';
 
 function App() {
   return (
@@ -12,8 +14,9 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} /> {/* add this */}
-          {/* Add additional Routes for other pages here */}
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/resume" element={<ResumePage />} />
+          <Route path="/contact" element={<ContactPage/>} />
         </Routes>
       </div>
     </Router>

@@ -24,7 +24,7 @@ const HomePage = () => {
           <FaLinkedin />
           <span> LinkedIn</span>
         </a>
-        <a href="mailto:patelrudy@yahoo.com">
+        <a href="mailto:rpatelweb@gmail.com">
           <FaEnvelope />
           <span> Email</span>
         </a>

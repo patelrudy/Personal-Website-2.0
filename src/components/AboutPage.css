@@ -29,9 +29,6 @@ body {
   padding-top: 60px;
 }
 
-/* rest of your css remains the same */
-
-
 .about-content-effect {
   height: 4.5em;
   display: flex;
@@ -74,15 +71,15 @@ body {
 }
 
 .personal-section .personal-info {
-  font-size: clamp(1em, 2vw, 1.5em); /* Change for text responsiveness */
+  font-size: clamp(1em, 2vw, 1.5em);
   font-weight: 500;
   line-height: 1.5;
 }
 
 .github-link {
-  color: blue;
+  color: rgb(0, 0, 0);
   text-decoration: underline;
-  font-weight: bold; /* To make the link text bold */
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {

@@ -44,7 +44,7 @@ const NavBar = () => {
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="navbar-icon">
             <FaLinkedin size={20}/>
           </a>
-          <a href="mailto:patelrudy@yahoo.com" className="navbar-icon">
+          <a href="mailto:rpatelweb@gmail.com" className="navbar-icon">
             <FaEnvelope size={20}/>
           </a>
         </li>
